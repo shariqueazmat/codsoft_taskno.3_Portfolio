@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(33, 33, 33);
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+.containers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.containers h1{
+    margin-left: 100px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer
+}
+.containers h1::first-letter{
+    color: aqua;
+}
+
+header {
+    background-color: rgb(33, 33, 33);
+    color: #fff;
+    height: 70vh;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+header nav ul li a:hover{
+    color: aqua;
+}
+
+.skills{
+    color: #fffefe;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #131313;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.left img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 4px aqua;
+}
+.tag-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+.right{
+    font-size: 40px;
+}
+.right b{
+    color: aqua;
+}
+.container1{
+    height: 60vh;
+    width: 100%;
+    background: rgb(33, 33, 33);
+    color: #fff;
+    margin: 0 30px 0 30px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.container1 h2{
+    color: #fff;
+    font-size: 30px;
+}
+.container1 p b{
+    color: aqua;
+}
+.conatainer2{
+    height: 60vh;
+    width: 100%;
+    background: rgb(33, 33, 33);
+    color: #fff;
+    margin: 0 30px 0 30px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.container2 h2{
+    color: #fff;
+    font-size: 30px;
+}
+.p-s{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skills{
+    color: #fff;
+}
+#projects{
+    color: #1d212b;
+    background: #fff;
+}
+.p-s .container{
+    margin: 100px;
+}
+.p-s h1{
+    font-size: 60px;
+}
+.p-s h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.p-s .cards{
+    display: flex;
+}
+.p-s .cards .text-card{
+    background: #2696e9;
+    margin: 20px;
+    padding: 20px;
+}
+.p-s .cards .text-card h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.image-style{
+    height: 100px;
+    width: 200px;
+}
+.image-style1{
+    height: 100px;
+    width: 200px;
+    margin-left: 48px;
+}
+.view{
+    height: 20px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.cv{
+    height: 25px;
+    width: 60px;
+    position: absolute;
+    left: 60%;
+    background-color: aqua;
+    border: none;
+    color: #131313;
+    border-radius: 8px;
+}
+@media (max-width: 900px){
+    section h1{
+        font-size: 40px;
+    }
+    section .cards{
+        flex-direction: column;
+    }
+}
+.cv:hover{
+    color: white;
+    background: black;
+}
